@@ -258,8 +258,18 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+		<repository>
+			<id>bsdn-maven-repository</id>
+			<name>Bsdn Maven Repository</name>
+			<url>http://nexus.bsdn.org/content/groups/public/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
 	</repositories>
-
 
 	<distributionManagement>
 		<repository>
